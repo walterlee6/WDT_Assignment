@@ -1,0 +1,152 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url("wdt bg.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.logo{
+    width: 285px;
+    position: absolute;
+    top:0%;
+    left: 0%;
+}
+
+.banner-text
+{
+    text-align: center;
+    color:burlywood;
+    padding-top: 180px;
+}
+
+.banner-text h1
+{
+    font-size: 50px;
+    font-family:fantasy;
+}
+
+ 
+.banner-btn 
+{
+    text-align: center;
+    margin: 70px auto 0;
+}
+
+.banner-btn a
+{
+    width: 200px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;    
+    color:burlywood;
+    border: 3px solid #fff;
+    font-size: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-btn a span
+{
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: -1; 
+  transition: 0.5s;
+}
+
+.banner-btn a:hover span
+{
+    width: 100%;
+    
+}
+.banner-btnn
+{
+    text-align: center;
+    margin: 100px auto 0;
+}
+
+.banner-btnn a{
+
+    width: 200px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;    
+    color:burlywood;
+    border: 3px solid #fff;
+    font-size: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-btnn a span
+{
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: -1; 
+  transition: 0.5s;
+}
+
+.banner-btnn a:hover span
+{
+    width: 100%;
+    
+}
+
+.menu-bar
+{
+    background: rgb(255,255,255);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: darkred;  
+}
+
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: darkred;
+    
+      
+}
+
+.active, .menu-bar ul li:hover
+{
+    background: #2bad0d;
+    border-radius: 3px;
+    background: darkgrey;
+}
+
+.menu-bar .fa-solid
+{
+    margin-right: 8px;
+}

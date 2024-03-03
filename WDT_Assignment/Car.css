@@ -1,0 +1,222 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url("wdt bg.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ .arr{
+    background:#fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    
+    
+ }
+
+ .arr:hover{
+    box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.5);
+ }
+
+ .arr div{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-top: 8px solid #202020;
+    border-left: 8px solid #202020;
+    transform: rotate(45deg);
+    left: 15px;
+    top: 18.5px;
+ }
+
+ .left
+ {
+    transform: rotate(-90deg);
+ }
+
+ 
+
+.logo{
+    width: 285px;
+    position: absolute;
+    top:0%;
+    left: 0%;
+}
+
+.banner-bnn 
+{
+    text-align: center;
+    margin: 70px auto 0;
+    
+}
+
+.banner-bnn a
+{
+    width: 500px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 0;    
+    color:burlywood;
+    border: 3px solid #fff;
+    font-size: 25px;
+    position: relative;
+ } 
+
+
+.menu-bar
+{
+    background: rgb(255,255,255);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: darkred;  
+}
+
+.menu-bar ul li
+{
+    width: 180px;
+    margin: 15px;
+    padding: 30px;
+    
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: darkred;
+    
+      
+}
+
+.active, .menu-bar ul li:hover
+{
+    background: #2bad0d;
+    border-radius: 3px;
+    background: darkgrey;
+}
+
+.menu-bar .fa-solid
+{
+    margin-right: 8px;
+}
+
+
+
+.menu-br{
+    background: transparent;
+    border: 3px solid #fff;
+    width: 400px;
+    font-size: 25px;
+    text-align: center;
+    align-content: center;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.menu-br ul{
+    
+    list-style: none;
+    color: burlywood;
+    background: transparent;
+    align-content: center;
+    
+}    
+
+.menu-br ul li{
+   padding: 17px;
+   background: transparent;
+   align-content: center;
+}
+
+.menu-br ul li a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+.active, .menu-br ul li:hover
+{
+    background-color: #fff;
+    border-radius: auto;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+.menu-br ul li:hover .sub-menu-1{
+
+    display: block;
+    position: absolute;
+    background:black;
+    border:3px solid white;
+    position:absolute;
+    margin-left: 45px;
+
+}
+
+.menu-brr{
+    background: transparent;
+    border: 3px solid #fff;
+    width: 400px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.menu-brr ul{
+    
+    list-style: none;
+    color: burlywood;
+    background: transparent;
+    
+    
+}    
+
+.menu-brr ul li{
+   padding: 17px;
+   background: transparent;
+}
+   
+.menu-brr ul li a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+.active, .menu-brr ul li:hover
+{
+    background-color: #fff;
+    border-radius: auto;
+}
+
+.sub-menu-2{
+    display: none;
+}
+
+.menu-brr ul li:hover .sub-menu-2{
+
+    display: block;
+    position: center;
+    background:black;
+    border:3px solid white;
+    margin-left: 75px;
+
+}

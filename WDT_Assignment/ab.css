@@ -1,0 +1,152 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url("wdt bg.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ .arr{
+    background:#fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    
+    
+ }
+
+ .arr:hover{
+    box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.5);
+ }
+
+ .arr div{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-top: 8px solid #202020;
+    border-left: 8px solid #202020;
+    transform: rotate(45deg);
+    left: 15px;
+    top: 18.5px;
+ }
+
+ .left
+ {
+    transform: rotate(-90deg);
+ }
+
+ 
+
+.logo{
+    width: 285px;
+    position: absolute;
+    top:0%;
+    left: 0%;
+}
+
+.menu-bar
+{
+    background: rgb(255,255,255);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: darkred;  
+}
+
+.menu-bar ul li
+{
+    width: 180px;
+    margin: 15px;
+    padding: 30px;
+    
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: darkred;
+    
+      
+}
+
+.active, .menu-bar ul li:hover
+{
+    background: #2bad0d;
+    border-radius: 3px;
+    background: darkgrey;
+}
+
+.menu-bar .fa-solid
+{
+    margin-right: 8px;
+}
+
+
+
+.section{
+    display: flex;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    margin: 20px;
+    
+}
+
+.image-1 img{
+    display:block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+    height:380px;
+}
+
+
+.image-2 img{
+    display:block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 320px;
+    height:380px;   
+}
+
+
+.image-3 img{
+    display:block;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+    height: 380px;
+    }
+
+.image-1 h4{
+    color: whitesmoke;
+    text-align: center; 
+    
+}
+
+.image-2 h4{
+    color: whitesmoke; 
+    text-align: center;
+}
+
+.image-3 h4{
+    color: whitesmoke; 
+    text-align: center;
+}
